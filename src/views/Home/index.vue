@@ -19,10 +19,10 @@ watch(
 <template>
   <div class="h-full text-center mt-52">
     <a-typography>
-      <a-typography-title bold> 🌟 App initial Successful! </a-typography-title>
+      <a-typography-title bold> 🌟 {{ $t("home.title") }} </a-typography-title>
     </a-typography>
     <a-button type="primary" @click="demoStore.increment">
-      ➡️ Pinia counter test
+      ➡️ {{ $t("home.test") }}
     </a-button>
   </div>
 </template>
