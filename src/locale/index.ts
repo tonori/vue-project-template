@@ -1,11 +1,5 @@
-import HomeEn from "@/locale/Home/en";
+import enUS from "@/locale/en-US";
 
 export default {
-  en: {
-    home: HomeEn,
-  },
+  "en-US": enUS,
 };
-
-export const getLocaleLang = () => localStorage.getItem("lang") || "en";
-
-export const getSupportLangList = () => ["en"];

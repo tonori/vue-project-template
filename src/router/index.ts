@@ -2,7 +2,7 @@ import type { RouteRecordRaw } from "vue-router";
 
 type RouteRecord = {
   meta?: {
-    title?: string;
+    i18nKey?: string;
   };
 } & RouteRecordRaw;
 
@@ -15,7 +15,7 @@ export const routes: RouteRecord[] = [
     alias: "",
     component: Home,
     meta: {
-      title: "Home",
+      i18nKey: "home",
     },
   },
 ];
